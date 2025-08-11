@@ -26,6 +26,12 @@ const projects = [
     description: 'Tkinter Python app using SpeechRecognition to convert audio files (.mp3/.wav) to text with high accuracy.',
     link: 'https://github.com/nishantrazz/Python-Assignment.git',
   },
+  {
+    title: 'Using MERN Login & SignUp',
+    description: 'User auth system with email using React, Express, Mango, Node.',
+    link: 'https://github.com/nishantrazz/MERNlogin',
+    link: 'https://mernlogin-frontend.onrender.com/',
+  },
 ];
 
 function Projects() {
