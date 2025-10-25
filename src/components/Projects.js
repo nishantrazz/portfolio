@@ -5,7 +5,7 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 const projects = [
   {
     title: 'Software Freedom Day Website',
-    description: 'A responsive PHP-based website using HTML, CSS, and Bootstrap to promote open-source initiatives.',
+    description: 'A responsive website using HTML, CSS, and Bootstrap to promote open-source initiatives.',
     link: 'https://github.com/nishantrazz/software-freedom-day.git',
   },
   {
@@ -25,6 +25,18 @@ const projects = [
     title: 'Audio to Text Converter',
     description: 'Tkinter Python app using SpeechRecognition to convert audio files (.mp3/.wav) to text with high accuracy.',
     link: 'https://github.com/nishantrazz/Python-Assignment.git',
+  },
+    {
+    title: 'Akash dental ',
+    description: 'A responsive website using React.js to promote Dental clinics ',
+    link: 'https://github.com/nishantrazz/dental.git',
+    view: 'https://akash-dental.onrender.com',
+  },
+      {
+    title: 'MERN Login & Register System',
+    description: 'User auth system using MERN . ',
+    link: 'https://github.com/nishantrazz/MERNlogin.git',
+    view: 'https://mernlogin-frontend.onrender.com',
   },
 ];
 
@@ -49,6 +61,18 @@ function Projects() {
                     >
                       View on GitHub
                     </Button>
+                    
+                  )}
+                   {project.view && (
+                    <Button
+                      variant="primary"
+                      href={project.view}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Live Website
+                    </Button>
+                    
                   )}
                 </Card.Body>
               </Card>
