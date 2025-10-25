@@ -21,7 +21,6 @@ const projects = [
     description: 'User auth system with email verification using PHPMailer, PHP backend, and MySQL database.',
     link: 'https://github.com/nishantrazz/login-and-signup-page-usingphp.git',
   },
-  
   {
     title: 'Audio to Text Converter',
     description: 'Tkinter Python app using SpeechRecognition to convert audio files (.mp3/.wav) to text with high accuracy.',
